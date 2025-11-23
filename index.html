@@ -6,14 +6,32 @@
         <link rel="stylesheet" type="text/css" href="CSS/style.css">  <!-- Enlazamos el archivo css en la carpeta "css"-->
     </head>
     <body>
-        <h1 id="titulo">David Gomez</h1>
+        <div class="taskbar"> 
+        <h1 id="titulo">Portfolio de David Gomez</h1>
+        </div>
         <h2>Game Developer</h2>
         <h4>Unity | C# | HTML | CSS | Blender</h4>
-            <ul>Proyectos</ul>
-            <li>The Perfect Mix</li>
-            <a href="Index/TPM.html"><li>Ir a la Pagina</li> </a>
-            <li>Shut down the computer before it catches you</li> 
-            <a href="https://cubonex.itch.io/shut-down-the-computer-before-it-catches-you"><li>Jugar</li> </a>
+            <div class="aboutme">
+            <h3>Sobre mi </h3>
+                
+                    <p>Soy David, Estudiante de la Universidad Nacional de Jose C. Paz. Actualmente, estoy cursando la carrera de Produccion y Desarrollo de Videojuegos</p>
+            </div>
+                
+            <h2>Proyectos </h2>
+                <div class="box">
+                    <img class="icon_game" src="Imagenes/the face.png">
+                    <p class="box-content">The Perfect Mix</p>
+                    <a class="box-content" href="Index/TPM.html">
+                    <p class="box-content">Ir a la Pagina</p> </a>
+                    <p class="age"> 2025 </p>
+                </div>
+                <div class="box">
+                    <img class="icon_game" src="Imagenes/TPM.png">
+                    <p class="box-content">Shut down the computer before it catches you</p> 
+                    <a class="box-content" href="https://cubonex.itch.io/shut-down-the-computer-before-it-catches-you">
+                    <p class="box-content">Jugar en Itch.io</p> </a>
+                    <p class="age"> 2023 </p>
+                </div>
         <script src="js/script.js"></script> <!-- Incluimos el archivo Javascript en la carpeta "js"-->
     </body> 
 </html>

@@ -1,8 +1,78 @@
+.taskbar{
+    background: #15151F;
+    margin-top: 0%;
+    height: 60px;
+
+    
+}
+.aboutme {
+    background: #27273f;
+    padding: 20px 0px 150px 20px;
+    height: 50px;
+    width: 600px;
+    margin: 20px 20px 20px 10px;
+    border-radius: 12px;
+    
+}
+
+
+
+body {
+    margin: 0;
+    background-color: #0A0A0F;
+    color:aliceblue
+}
+h3{
+    text-align: start;
+    margin: 0;
+
+}
+
+.box {
+    width: 600px;
+    height: 150px;       /* tamaño de ejemplo */
+    background: #15151F;
+    display: flex;       /* activa flexbox */
+    justify-content: start;  /* centra horizontal */
+    align-items: center;      /* centra vertical */
+    border-radius: 12px;
+    margin: 40px 0 40px 10px;
+}
+
+.icon_game{
+    height: auto;
+    width: 100px;
+    margin: 0 20px 0 20px;
+}
+.box-content{
+        display: flex;
+        flex-direction: column;
+        margin: 0 30px 0 0;
+}
+.age {
+    font-family:Arial, Helvetica, sans-serif;
+    writing-mode: vertical-rl;   /* pone el texto en columna */
+    text-orientation: upright;   /* mantiene los números rectos */
+    font-size: 30px;             /* tamaño grande */
+    margin-left: auto;
+    
+}
+
+
+
+
+
+
+
+
 
 h1 {
-text-align: center;
+    text-align:center;
+    margin: 0;
+    
 }
 h2 {
+    
     text-align: center;
 }
 h4 {
@@ -16,5 +86,6 @@ p {
         font-family: Arial, sans-serif;
         font-style: italic;
         text-align: justify;
-        text-decoration: overline;
+        
+        
 }
