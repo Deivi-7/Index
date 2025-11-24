@@ -29,7 +29,7 @@ h3{
 }
 
 .box {
-    width: 600px;
+    width: 900px;
     height: 150px;       /* tamaño de ejemplo */
     background: #15151F;
     display: flex;       /* activa flexbox */
@@ -72,7 +72,7 @@ h1 {
     
 }
 h2 {
-    
+    background-color:#27273f;
     text-align: center;
 }
 h4 {
@@ -85,7 +85,10 @@ ul {
 p { 
         font-family: Arial, sans-serif;
         font-style: italic;
-        text-align: justify;
         
         
+        
+}
+a{
+    color:salmon
 }
