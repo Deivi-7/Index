@@ -1,11 +1,13 @@
    // Función para cambiar el color del título    
         function cambiarColor(elemento){
             elemento.style.color = "red"; // Cambiar el color del texto a rojo
+            elemento.style.transform = "scale(1.1)";     
     }
 
     // Función para restaurar el color original del título  
     function restaurarColor(elemento){
-            elemento.style.color = "blue"; // Cambiar el color del texto a azul        
+            elemento.style.color = "white"; // Cambiar el color del texto a azul
+            elemento.style.transform = "scale(1)";       
     }
 
     // Obtener el elemento del título por su ID
