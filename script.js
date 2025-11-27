@@ -24,6 +24,3 @@
         restaurarColor(titulo);
         
     });
-              
-                            
-          
