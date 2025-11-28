@@ -10,6 +10,12 @@
             elemento.style.transform = "scale(1)";       
     }
 
+    function agrandar(elemento){
+    elemento.style.transform = "scale(1.1)";    
+    }
+    function achicar(elemento){
+    elemento.style.transform = "scale(1)";
+    }
     // Obtener el elemento del título por su ID
     const titulo = document.getElementById("titulo");
             
@@ -26,3 +32,34 @@
         restaurarColor(titulo);
         
     });
+
+    const titulo1 = document.getElementById("titulo1");
+
+    titulo1.addEventListener("mouseover", function () { 
+        
+        cambiarColor(titulo1);
+        
+    });
+            
+    titulo1.addEventListener("mouseout", function () { 
+        
+        restaurarColor(titulo1);
+        
+    });
+    const boxes = document.getElementsByClassName("box")
+            
+   // Iterar sobre la colección de cajas
+for (let i = 0; i < boxes.length; i++) {
+    const box = boxes[i]; // 'box' es el elemento individual en cada iteración
+
+    
+    box.addEventListener("mouseover", function () { 
+        agrandar(box); 
+    });
+            
+    
+    box.addEventListener("mouseout", function () { 
+        // Cuando el mouse sale, llama a achicar y le pasa ESTA caja
+        achicar(box); 
+    });
+}

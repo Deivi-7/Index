@@ -37,7 +37,8 @@ h3{
     justify-content: start;  /* centra horizontal */
     align-items: center;      /* centra vertical */
     border-radius: 12px;
-    margin: 40px 0 40px 10px;
+    
+    margin: 40px auto;
 }
 
 .icon_game{
